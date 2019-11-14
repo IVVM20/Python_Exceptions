@@ -1,4 +1,4 @@
-# Python_Exceptions
+# Python Exception and Error Handling
 The main goal of the repository is to give examples on how to increase the code robustness and implement good exception/error handling procedures which guard against potential failures which may cause your program to exit its run in an uncontrolled fashion.
 
 ## Preparing for Failure
@@ -10,15 +10,15 @@ Recovery from a problem has the following steps:
 
 This repository will give examples of error handling, which if done good, generally speaking handles the first two steps in the recovery procedure above.  
 
-## Detecting the problem
+## Syntax Errors and Runtime Errors
 In Python programs, many problems can go wrong, abbruptly called erros.
 These errors can be of two types:
 1. Syntax errors: errors caused by not following the proper structure/syntax of the python language; these errors are caught when interpreting the code
 2. Runtime Errors: these exceptions occur at run-time; even though your code is bullet-proof syntactically speaking, there are exceptions at runtime from a functional perspective.
 
-### Examples of Syntax Errors and Runtime Errors
+## Examples of Syntax Errors and Runtime Errors
 
-__Syntax Errors__
+###__Syntax Errors__
 ```
 my_list = [1, 2, 3]
 for item in my_list:
@@ -32,7 +32,7 @@ __Output:__
 IndentationError: expected an indented block
 ```
 
-__Runtime Errors__
+###__Runtime Errors__
 ```
 a = 2
 b = 0
