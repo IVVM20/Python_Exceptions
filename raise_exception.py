@@ -12,9 +12,6 @@ class LowerThanTen(object):
 my_test_instance = LowerThanTen(3)
 my_test_instance.raise_if_higher()
 
-my_test_instance2 = LowerThanTen(13)
-my_test_instance2.raise_if_higher()
-
 
 """
 Output:
