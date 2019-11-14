@@ -19,29 +19,29 @@ These errors can be of two types:
 ### Examples of Syntax Errors and Runtime Errors
 
 __Syntax Errors__
-'''
+```
 my_list = [1, 2, 3]
 for item in my_list:
 print(item)
-'''
+```
 __Output:__
-'''
+```
   File "<ipython-input-23-30fcf0822ade>", line 3
     print(value)
         ^
 IndentationError: expected an indented block
-'''
+```
 
 __Runtime Errors__
-'''
+```
 a = 2
 b = 0
 print(a/b)
-'''
+```
 __Output:__
-'''
+```
 Traceback (most recent call last):
   File "main.py", line 3, in <module>
     print(a/b)
 ZeroDivisionError: integer division or modulo by zero
-'''
+```
