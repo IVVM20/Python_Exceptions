@@ -79,3 +79,7 @@ You can find more information here:
 * [Python3 Exceptions](https://docs.python.org/3/library/exceptions.html) - Python3 Error/Exception Handling
 * [Python2 Exceptions](https://docs.python.org/2/library/exceptions.html) - Python2 Error/Exception Handling
 
+
+## Raising an Exception
+You can use "raise" to throw an exception __if__ a condition occurs. 
+__Note:__ You can generally use your custom exception here to better complement the statement and handle the error. 
