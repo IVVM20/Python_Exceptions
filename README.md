@@ -53,6 +53,26 @@ __Explanation:__ We have ran into an exception error and this type of error occu
 ## Runtime Error/Exception Handling.
 It becomes obvious that the we must employ tactics for detecting and identifying the cause of the run-time errors; The syntacting errors being mostly easy to repair.
 Python comes shipped already with various built-in exceptions and also leaves the user the possibility of creating self-defined exceptions.
+Built-in Exception Classes
+| Exception Class  | Event  |
+|---|---|
+|Exception  |Base class for all exceptions  |
+|ArithmeticError  |Raised when numeric calculations fails   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+
 You can find more information here:
 * [Python3 Exceptions](https://docs.python.org/3/library/exceptions.html) - Python3 Error/Exception Handling
 * [Python2 Exceptions](https://docs.python.org/2/library/exceptions.html) - Python2 Error/Exception Handling
