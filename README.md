@@ -18,7 +18,7 @@ These errors can be of two types:
 
 ### Examples of Syntax Errors and Runtime Errors
 
-1.__Syntax Errors__
+__Syntax Errors__
 '''
 my_list = [1, 2, 3]
 for item in my_list:
@@ -32,7 +32,7 @@ __Output:__
 IndentationError: expected an indented block
 '''
 
-2.__Runtime Errors__
+__Runtime Errors__
 '''
 a = 2
 b = 0
