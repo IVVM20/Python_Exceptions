@@ -83,3 +83,31 @@ You can find more information here:
 ## Raising an Exception
 You can use "raise" to throw an exception __if__ a condition occurs. 
 __Note:__ You can generally use your custom exception here to better complement the statement and handle the error. 
+```
+class LowerThanTen(object):
+    def __init__(self, number):
+        self.number = number
+
+    def raise_if_higher(self):
+        if self.number > 10:
+            raise Exception('The number should not be bigger than 10. '
+                            'The value was: {}'.format(self.number))
+        else:
+            print("Value is lower than 10. The value was: {}".format(self.number))
+
+my_test_instance = LowerThanTen(3)
+my_test_instance.raise_if_higher()
+```
+__Output:__
+```
+Value is lower than 10. The value was: 3
+Traceback (most recent call last):
+  File "/project/Python_Exceptions/raise_exception.py", line 16, in <module>
+    my_test_instance2.raise_if_higher()
+  File "/project/Python_Exceptions/raise_exception.py", line 8, in raise_if_higher
+    'The value was: {}'.format(self.number))
+Exception: The number should not be bigger than 10. The value was: 13
+```
+
+## Asserting with AssertionError Exception
+This should be used when a certain condition is met. If our condition is True, than the program continues its run. Otherwise, if our condition is False, than an AssertionError exception is trown.
